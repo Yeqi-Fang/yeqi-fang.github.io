@@ -140,7 +140,10 @@
       "degrees": [
         "Bachelor of Science in Physics"
       ],
-      "honors": ["Outstanding Student Award", "Dean's List"],
+      "honors": [
+        "National Scholarship",
+        "Dean's List"
+      ],
       "gpa_cumulative": "3.97",
       "gpa_major": "4.0",
       "graduation_date": "June 30, 2025"
@@ -149,8 +152,12 @@
       "institution": "Institution Two",
       "location": "Institution Two Location",
       "url": "https://sample.com",
-      "degrees": ["Bachelor of Science in Physics"],
-      "honors": ["Scholarship Recipient"],
+      "degrees": [
+        "Bachelor of Science in Physics"
+      ],
+      "honors": [
+        "Scholarship Recipient"
+      ],
       "gpa_cumulative": "3.2",
       "gpa_major": "3.9",
       "graduation_date": "01/01/2000"

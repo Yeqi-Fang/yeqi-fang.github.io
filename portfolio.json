@@ -134,17 +134,16 @@
   ],
   "education": [
     {
-      "institution": "Institution One",
-      "location": "Institution One Location",
-      "url": "https://sample.com",
+      "institution": "Sichuan University",
+      "location": "Chengdu, Sichuan, China",
+      "url": "https://en.scu.edu.cn",
       "degrees": [
-        "Master of Science in Computer Science",
-        "Minor in Mathematics"
+        "Bachelor of Science in Physics"
       ],
       "honors": ["Outstanding Student Award", "Dean's List"],
-      "gpa_cumulative": "3.5",
+      "gpa_cumulative": "3.97",
       "gpa_major": "4.0",
-      "graduation_date": "01/01/2005"
+      "graduation_date": "06/30/2025"
     },
     {
       "institution": "Institution Two",

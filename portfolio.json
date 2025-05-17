@@ -1,11 +1,11 @@
 {
-  "name": "Your Name",
+  "name": "Yeqi Fang",
   "label": "Optional Label",
   "image_path": "img/default-image.png",
   "contact": {
-    "email": "FirstLast@Sample.com",
-    "phone": "123-456-7890",
-    "location": "City, State, Country"
+    "email": "fangyeqi@stu.scu.edu.cn",
+    "phone": "(+86) 19382027996",
+    "location": "Chengdu, Sichuan, China"
   },
   "summary": "A short summary of who you are, your background, experience, and interests to give visitors a quick introduction to you.",
   "base_url": "127.0.0.1:5500",

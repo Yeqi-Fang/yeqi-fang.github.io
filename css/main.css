@@ -474,6 +474,12 @@ blockquote {
   }
 }
 
+@media (min-width: 700px) {
+  .main-gallery {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
 @media print {
   .skill-bar-label {
     background: transparent !important;

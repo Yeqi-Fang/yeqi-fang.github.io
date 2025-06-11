@@ -390,10 +390,9 @@ blockquote {
 }
 
 @media (min-width: 37.5rem) {
-  .main-gallery {
+  /* .main-gallery {
     grid-template-columns: repeat(3, 1fr);
-  }
-
+  } */
   .side-gallery {
     grid-template-columns: repeat(2, 1fr);
   }

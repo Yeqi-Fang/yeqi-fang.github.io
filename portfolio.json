@@ -39,11 +39,11 @@
       "images": [
         {
           "img_path": "img/mean_mismatch.png",
-          "caption": "Image Caption 1"
+          "caption": "Predicted versus actual values for mismatch"
         },
         {
           "img_path": "img/dist_compare.png",
-          "caption": "Image Caption 2"
+          "caption": "Distribution comparison of predicted and actual values"
         }
       ]
     },
@@ -57,11 +57,11 @@
       "images": [
         {
           "img_path": "img/Screenshot 2025-06-11 095452.png",
-          "caption": "Image Caption 4"
+          "caption": "Black hole accretion disk simulation"
         },
         {
           "img_path": "img/Screenshot 2025-06-11 095913.png",
-          "caption": "Image Caption 6"
+          "caption": "Testing model with Hubble Space Telescope data"
         }
       ]
     }

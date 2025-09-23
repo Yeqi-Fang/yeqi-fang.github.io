@@ -17,12 +17,12 @@
     },
     {
       "label": "First Social",
-      "url": "https://sample.com",
+      "url": "https://cn.linkedin.com/in/fang-yeqi",
       "svg_path": "img/linkedin.svg"
     },
     {
       "label": "Second Social",
-      "url": "https://sample.com",
+      "url": "https://github.com/Yeqi-Fang",
       "svg_path": "img/github.svg"
     }
   ],
@@ -48,25 +48,19 @@
       ]
     },
     {
-      "title": "My Second Project",
-      "summary": "Short summary about my second project",
+      "title": "Project Leader, National College Student Innovation Project, Sichuan University, China",
+      "summary": "Developed a black hole detection and parameter estimation model using simulated observations from space telescopes. The project involved black hole accretion disk simulation, telescope simulation, data processing, an ensemble deep learning model for both black hole detection and recognition, and final validation with the data from Hubble Space Telescope.",
       "url": "https://sample.com",
       "highlights": [
-        "First Highlight of Project Two",
-        "Second Highlight of Project Two",
-        "Third Highlight of Project Two"
+        "Publication on Physical Review D as first author"
       ],
       "images": [
         {
-          "img_path": "https://picsum.photos/600/338?random=4",
+          "img_path": "img/Screenshot 2025-06-11 095452.png",
           "caption": "Image Caption 4"
         },
         {
-          "img_path": "https://picsum.photos/600/338?random=5",
-          "caption": "Image Caption 5"
-        },
-        {
-          "img_path": "https://picsum.photos/600/338?random=6",
+          "img_path": "img/Screenshot 2025-06-11 095913.png",
           "caption": "Image Caption 6"
         }
       ]
@@ -74,29 +68,24 @@
   ],
   "volunteer_experience": [
     {
-      "organization": "Latest Organization",
-      "position": "Position One",
-      "url": "https://sample.com",
-      "start_date": "01/01/2020",
-      "end_date": "Present",
-      "summary": "Short summary about present volunteer work",
+      "organization": "Spring Bud Youth Volunteer Service Team",
+      "position": "Member",
+      "start_date": "Sept. 2021",
+      "end_date": "July 2025",
+      "summary": "Participated in volunteer activities including \"100 Good Deeds 2021\", a fundraising campaign for children in poverty-stricken areas, and \"Love Home\", a rescue program for stray cats and dogs, accumulating 170.5 volunteer hours",
       "highlights": [
-        "First Duty of Current Organization",
-        "Second Duty of Current Organization",
-        "Third Duty of Current Organization"
+        "Awarded \"Outstanding Volunteer\" title for dedicated service",
+        "Orgnizing and leading multiple outreach events for elementary school students"
       ]
     },
     {
-      "organization": "Previous Organization",
-      "position": "Position Two",
-      "url": "https://sample.com",
-      "start_date": "01/01/2010",
-      "end_date": "01/01/2020",
-      "summary": "Short summary about previous volunteer work",
+      "organization": "Student Council of Sichuan University",
+      "position": "Representative",
+      "start_date": "Sept. 2021",
+      "end_date": "July 2025",
+      "summary": "Organized activities including sport events, such as the \"Starlight Night Run\", musical events, like the \"Piano Music Festival\", and the \"Global Perspectives Debate Series\", a platform for students to discuss and debate current international issues.",
       "highlights": [
-        "First Duty of Previous Organization",
-        "Second Duty of Previous Organization",
-        "Third Duty of Previous Organization"
+        "Awarded \"Outstanding Student Leader\" title for exceptional leadership and organizational skills"
       ]
     }
   ],
@@ -115,60 +104,41 @@
       "gpa_cumulative": "3.97",
       "gpa_major": "4.0",
       "graduation_date": "June 30, 2025"
-    },
-    {
-      "institution": "Institution Two",
-      "location": "Institution Two Location",
-      "url": "https://sample.com",
-      "degrees": [
-        "Bachelor of Science in Physics"
-      ],
-      "honors": [
-        "Scholarship Recipient"
-      ],
-      "gpa_cumulative": "3.2",
-      "gpa_major": "3.9",
-      "graduation_date": "01/01/2000"
     }
   ],
   "skills": [
     {
-      "name": "My First Skill",
-      "proficiency": 100,
-      "proficiency_label": "Proficiency Level"
-    },
-    {
-      "name": "My Second Skill",
-      "proficiency": 80,
+      "name": "Python Programming",
+      "proficiency": 98,
       "proficiency_label": "Proficiency Level"
     }
   ],
   "interests": [
     {
-      "name": "My First Hobby",
-      "summary": "Short summary about my first Hobby",
+      "name": "Volunteering activities",
+      "summary": "",
       "images": [
         {
-          "img_path": "https://picsum.photos/600/338?random=7",
-          "caption": "Image Caption 7"
+          "img_path": "img/image82.jpg",
+          "caption": "Love Home, a rescue program for stray cats and dogs"
         },
         {
-          "img_path": "https://picsum.photos/600/338?random=8",
-          "caption": "Image Caption 8"
+          "img_path": "img/image91.png",
+          "caption": "An outreach event for elementary school students"
         }
       ]
     },
     {
-      "name": "My Second Hobby",
-      "summary": "Short summary about my second hobby",
+      "name": "Academic activities",
+      "summary": "",
       "images": [
         {
-          "img_path": "https://picsum.photos/600/338?random=9",
-          "caption": "Image Caption 9"
+          "img_path": "img/image115.jpg",
+          "caption": "Oral presentation"
         },
         {
-          "img_path": "https://picsum.photos/600/338?random=10",
-          "caption": "Image Caption 10"
+          "img_path": "img/image106.jpeg",
+          "caption": "Competition (center person)"
         }
       ]
     }
@@ -176,11 +146,7 @@
   "languages": [
     {
       "language": "English",
-      "fluency": "Native speaker"
-    },
-    {
-      "language": "American Sign Language",
-      "fluency": "Professional Working Proficiency"
+      "fluency": "IELTS 7.5"
     }
   ],
   "references": [

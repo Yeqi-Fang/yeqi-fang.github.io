@@ -16,12 +16,12 @@
       "svg_path": "img/globe.svg"
     },
     {
-      "label": "First Social",
+      "label": "LinkedIn",
       "url": "https://cn.linkedin.com/in/fang-yeqi",
       "svg_path": "img/linkedin.svg"
     },
     {
-      "label": "Second Social",
+      "label": "Github",
       "url": "https://github.com/Yeqi-Fang",
       "svg_path": "img/github.svg"
     }

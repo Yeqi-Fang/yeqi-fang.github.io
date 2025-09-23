@@ -3,16 +3,16 @@
   "label": "Optional Label",
   "image_path": "img/fyq.jpg",
   "contact": {
-    "email": "fangyeqi@stu.scu.edu.cn",
+    "email": "yeqi.fang@aei.mpg.de",
     "phone": "(+86) 19382027996",
-    "location": "Chengdu, Sichuan, China"
+    "location": "Max Planck Institute for Gravitational Physics, Callinstr. 38, 30167, Hannover, Germany"
   },
-  "summary": "A short summary of who you are, your background, experience, and interests to give visitors a quick introduction to you.",
+  "summary": "As a physics student passionate about astronomy and astrophysics, I have published two peer-reviewed papers and won five international awards in competitions. My research experience spans gravitational waves, black hole physics, and gamma-ray bursts.",
   "base_url": "127.0.0.1:5500",
   "social_links": [
     {
       "label": "Personal Website",
-      "url": "https://sample.com",
+      "url": "https://yeqi-fang.github.io/",
       "svg_path": "img/globe.svg"
     },
     {
@@ -26,56 +26,24 @@
       "svg_path": "img/github.svg"
     }
   ],
-  "work_experience": [
-    {
-      "company": "Latest Job",
-      "position": "Position One",
-      "url": "https://sample.com",
-      "start_date": "01/01/2020",
-      "end_date": "Present",
-      "summary": "Short summary about present job and what the position entails",
-      "highlights": [
-        "First Duty of Current Job",
-        "Second Duty of Current Job",
-        "Third Duty of Current Job"
-      ]
-    },
-    {
-      "company": "Previous Job",
-      "position": "Position Two",
-      "url": "https://sample.com",
-      "start_date": "01/01/2010",
-      "end_date": "01/01/2020",
-      "summary": "Short summary about previous job and what that position entailed",
-      "highlights": [
-        "First Duty of Previous Job",
-        "Second Duty of Previous Job",
-        "Third Duty of Previous Job"
-      ]
-    }
-  ],
   "projects": [
     {
-      "title": "My First Project",
-      "summary": "Short summary about my first project",
+      "title": "Research Assistant, Max Planck Institute for Gravitational Physics (Albert Einstein Institute)",
+      "summary": "Developed a normalizing flow-based neural network model to optimize O4a continuous gravitational wave search strategies by predicting mismatch distributions between signals and search templates. The project addressed computational bottlenecks limiting detection sensitivity, focusing on parameter optimization for coherent integration time, template grid spacings, and refinement factors.",
       "url": "https://sample.com",
       "highlights": [
-        "First Highlight of Project One",
-        "Second Highlight of Project One",
-        "Third Highlight of Project One"
+        "Achieved mean absolute error of 1% for directed searches and 0.8% for all-sky searches",
+        "100x speedup in parameter estimation",
+        "Paper submitted to Physical Review D (under review)."
       ],
       "images": [
         {
-          "img_path": "https://picsum.photos/600/338?random=1",
+          "img_path": "img/mean_mismatch.png",
           "caption": "Image Caption 1"
         },
         {
-          "img_path": "https://picsum.photos/600/338?random=2",
+          "img_path": "img/dist_compare.png",
           "caption": "Image Caption 2"
-        },
-        {
-          "img_path": "https://picsum.photos/600/338?random=3",
-          "caption": "Image Caption 3"
         }
       ]
     },

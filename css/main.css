@@ -256,6 +256,15 @@ img {
   max-width: 900px;
 }
 
+/* Set "wide": true on an image in portfolio.json to give it a full row */
+.main-gallery figure.wide {
+  grid-column: 1 / -1;
+}
+
+.main-gallery figure.wide img {
+  max-width: 100%;
+}
+
 .side-gallery {
   grid-template-columns: 1fr;
 }

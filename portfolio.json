@@ -3,7 +3,7 @@
   "label": "Optional Label",
   "image_path": "img/fyq.jpg",
   "contact": {
-    "email": "yeqi.fang@aei.mpg.de",
+    "email": "fangyeqi@alu.scu.edu.cn",
     "phone": "(+86) 19382027996",
     "location": "Max Planck Institute for Gravitational Physics, Callinstr. 38, 30167, Hannover, Germany"
   },
@@ -28,6 +28,26 @@
   ],
   "projects": [
     {
+      "title": "Research Assistant, Tsinghua University",
+      "summary": "Developed a diffusion model based on an equivariant graph neural network (EGNN) for long-timescale atomistic dynamics, reaching simulated physical times of hours in amorphous silica and milliseconds in amorphous silicon (a-Si) while closely reproducing the energy and defect statistics of the target trajectories. More than 100 times faster compared to molecular dynamics (MD).",
+      "highlights": [
+        "Physical insights: identified rearrangement mechanisms in a-Si that are not previously reported through clustering in the latent space of the EGNN, including extended chains and branched structures, extending the microscopic understanding of structural relaxation and aging.",
+        "Generalization: transfers from a system with 1,000 atoms to one with 4,096 atoms, and from 500 K to 300 K, with no retraining and no appreciable performance degradation on the tested benchmarks."
+      ],
+      "images": [
+        {
+          "img_path": "img/asi_amden_workflow.png",
+          "wide": true,
+          "caption": "Simulation loop: a GNN site model picks where the next event happens, a conditional diffusion model generates the local rearrangement, the structure is relaxed, and kinetic Monte Carlo selects among candidates"
+        },
+        {
+          "img_path": "img/asi_pattern_overview.png",
+          "wide": true,
+          "caption": "Rearrangement topologies in a-Si (top) and a UMAP map of the learned event embedding coloured by topology class (middle)"
+        }
+      ]
+    },
+    {
       "title": "Research Assistant, Max Planck Institute for Gravitational Physics (Albert Einstein Institute)",
       "summary": "Developed a normalizing flow-based neural network model to optimize O4a continuous gravitational wave search strategies by predicting mismatch distributions between signals and search templates. The project addressed computational bottlenecks limiting detection sensitivity, focusing on parameter optimization for coherent integration time, template grid spacings, and refinement factors.",
       "url": "https://sample.com",
@@ -38,12 +58,12 @@
       ],
       "images": [
         {
-          "img_path": "img/mean_mismatch.png",
-          "caption": "Predicted versus actual values for mismatch"
+          "img_path": "img/aei_workflow.png",
+          "caption": "Mismatch prediction with a conditional normalizing flow: (a) the template grid misses the signal peak, causing mismatch; (b) cost per setup of simulations versus the flow; (c) the flow predicts the mismatch distribution from the grid parameters"
         },
         {
-          "img_path": "img/dist_compare.png",
-          "caption": "Distribution comparison of predicted and actual values"
+          "img_path": "img/aei_setup_optimization.png",
+          "caption": "Setup selection for the directed O4a search: Pareto fronts of mean mismatch versus computing cost predicted by the flow (solid), confirmed by re-simulation (circles), and compared with simulation-only selection (dashed)"
         }
       ]
     },

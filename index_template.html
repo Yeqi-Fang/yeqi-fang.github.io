@@ -156,7 +156,7 @@
                   {% if project.images %}
                     <div class="gallery main-gallery">
                       {% for img in project.images %}
-                        <figure>
+                        <figure{% if img.wide %} class="wide"{% endif %}>
                           <img width="600"
                                height="338"
                                src="{{ img.img_path }}"

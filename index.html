@@ -73,7 +73,7 @@
                 <ul class="inline-list flex-responsive">
                   
                     <li>
-                      <a href="mailto:yeqi.fang@aei.mpg.de">yeqi.fang@aei.mpg.de</a>
+                      <a href="mailto:fangyeqi@alu.scu.edu.cn">fangyeqi@alu.scu.edu.cn</a>
                     </li>
                   
                   
@@ -168,6 +168,41 @@
                 <section>
                   <h3>
                     
+                      Research Assistant, Tsinghua University
+                    
+                  </h3>
+                  <p>Developed a diffusion model based on an equivariant graph neural network (EGNN) for long-timescale atomistic dynamics, reaching simulated physical times of hours in amorphous silica and milliseconds in amorphous silicon (a-Si) while closely reproducing the energy and defect statistics of the target trajectories. More than 100 times faster compared to molecular dynamics (MD).</p>
+                  
+                    <ul>
+                      <li>Physical insights: identified rearrangement mechanisms in a-Si that are not previously reported through clustering in the latent space of the EGNN, including extended chains and branched structures, extending the microscopic understanding of structural relaxation and aging.</li><li>Generalization: transfers from a system with 1,000 atoms to one with 4,096 atoms, and from 500 K to 300 K, with no retraining and no appreciable performance degradation on the tested benchmarks.</li>
+                    </ul>
+                  
+                  
+                    <div class="gallery main-gallery">
+                      
+                        <figure class="wide">
+                          <img width="600"
+                               height="338"
+                               src="img/asi_amden_workflow.png"
+                               alt="Simulation loop: a GNN site model picks where the next event happens, a conditional diffusion model generates the local rearrangement, the structure is relaxed, and kinetic Monte Carlo selects among candidates">
+                          <figcaption>Simulation loop: a GNN site model picks where the next event happens, a conditional diffusion model generates the local rearrangement, the structure is relaxed, and kinetic Monte Carlo selects among candidates</figcaption>
+                        </figure>
+                      
+                        <figure class="wide">
+                          <img width="600"
+                               height="338"
+                               src="img/asi_pattern_overview.png"
+                               alt="Rearrangement topologies in a-Si (top) and a UMAP map of the learned event embedding coloured by topology class (middle)">
+                          <figcaption>Rearrangement topologies in a-Si (top) and a UMAP map of the learned event embedding coloured by topology class (middle)</figcaption>
+                        </figure>
+                      
+                    </div>
+                  
+                </section>
+              
+                <section>
+                  <h3>
+                    
                       <a href="https://sample.com">Research Assistant, Max Planck Institute for Gravitational Physics (Albert Einstein Institute)</a>
                     
                   </h3>
@@ -183,17 +218,17 @@
                         <figure>
                           <img width="600"
                                height="338"
-                               src="img/mean_mismatch.png"
-                               alt="Predicted versus actual values for mismatch">
-                          <figcaption>Predicted versus actual values for mismatch</figcaption>
+                               src="img/aei_workflow.png"
+                               alt="Mismatch prediction with a conditional normalizing flow: (a) the template grid misses the signal peak, causing mismatch; (b) cost per setup of simulations versus the flow; (c) the flow predicts the mismatch distribution from the grid parameters">
+                          <figcaption>Mismatch prediction with a conditional normalizing flow: (a) the template grid misses the signal peak, causing mismatch; (b) cost per setup of simulations versus the flow; (c) the flow predicts the mismatch distribution from the grid parameters</figcaption>
                         </figure>
                       
                         <figure>
                           <img width="600"
                                height="338"
-                               src="img/dist_compare.png"
-                               alt="Distribution comparison of predicted and actual values">
-                          <figcaption>Distribution comparison of predicted and actual values</figcaption>
+                               src="img/aei_setup_optimization.png"
+                               alt="Setup selection for the directed O4a search: Pareto fronts of mean mismatch versus computing cost predicted by the flow (solid), confirmed by re-simulation (circles), and compared with simulation-only selection (dashed)">
+                          <figcaption>Setup selection for the directed O4a search: Pareto fronts of mean mismatch versus computing cost predicted by the flow (solid), confirmed by re-simulation (circles), and compared with simulation-only selection (dashed)</figcaption>
                         </figure>
                       
                     </div>
@@ -444,7 +479,7 @@
 
     <footer class="page-footer">
       <div class="container">
-        <p>© 2025 Yeqi Fang. All rights reserved.</p>
+        <p>© 2026 Yeqi Fang. All rights reserved.</p>
       </div>
     </footer>
 
